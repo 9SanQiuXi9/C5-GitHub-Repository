@@ -1,0 +1,468 @@
+{
+  "timestamp": "2026-10-05T15:46:16.674448",
+  "folder": "D:/WORK2/C4A/c4a-skill-evaluator/benchmark/golden_set",
+  "summary": {
+    "total_authors": 12,
+    "total_c4_files": 56
+  },
+  "evaluations": {
+    "TestUser": {
+      "completeness": {
+        "files_present": 5,
+        "total_required": 5,
+        "status": "full",
+        "missing": [],
+        "score": 1.0
+      },
+      "quality": {
+        "total_score": 12,
+        "max_score": 12,
+        "rating": "优秀",
+        "criteria": {
+          "reusable": {
+            "label": "可复用",
+            "rating": "✅",
+            "score": 3
+          },
+          "executable": {
+            "label": "可执行",
+            "rating": "✅",
+            "score": 3
+          },
+          "verifiable": {
+            "label": "可验证",
+            "rating": "✅",
+            "score": 3
+          },
+          "clear_io": {
+            "label": "IO 明确",
+            "rating": "✅",
+            "score": 3
+          }
+        },
+        "score": 1.0
+      },
+      "composite": 1.0
+    },
+    "User02": {
+      "completeness": {
+        "files_present": 5,
+        "total_required": 5,
+        "status": "full",
+        "missing": [],
+        "score": 1.0
+      },
+      "quality": {
+        "total_score": 12,
+        "max_score": 12,
+        "rating": "优秀",
+        "criteria": {
+          "reusable": {
+            "label": "可复用",
+            "rating": "✅",
+            "score": 3
+          },
+          "executable": {
+            "label": "可执行",
+            "rating": "✅",
+            "score": 3
+          },
+          "verifiable": {
+            "label": "可验证",
+            "rating": "✅",
+            "score": 3
+          },
+          "clear_io": {
+            "label": "IO 明确",
+            "rating": "✅",
+            "score": 3
+          }
+        },
+        "score": 1.0
+      },
+      "composite": 1.0
+    },
+    "User03": {
+      "completeness": {
+        "files_present": 5,
+        "total_required": 5,
+        "status": "full",
+        "missing": [],
+        "score": 1.0
+      },
+      "quality": {
+        "total_score": 5,
+        "max_score": 12,
+        "rating": "不合格",
+        "criteria": {
+          "reusable": {
+            "label": "可复用",
+            "rating": "❌",
+            "score": 0
+          },
+          "executable": {
+            "label": "可执行",
+            "rating": "✅",
+            "score": 3
+          },
+          "verifiable": {
+            "label": "可验证",
+            "rating": "⚠️",
+            "score": 1
+          },
+          "clear_io": {
+            "label": "IO 明确",
+            "rating": "⚠️",
+            "score": 1
+          }
+        },
+        "score": 0.4166666666666667
+      },
+      "composite": 0.65
+    },
+    "User04": {
+      "completeness": {
+        "files_present": 5,
+        "total_required": 5,
+        "status": "full",
+        "missing": [],
+        "score": 1.0
+      },
+      "quality": {
+        "total_score": 9,
+        "max_score": 12,
+        "rating": "合格",
+        "criteria": {
+          "reusable": {
+            "label": "可复用",
+            "rating": "✅",
+            "score": 3
+          },
+          "executable": {
+            "label": "可执行",
+            "rating": "✅",
+            "score": 3
+          },
+          "verifiable": {
+            "label": "可验证",
+            "rating": "❌",
+            "score": 0
+          },
+          "clear_io": {
+            "label": "IO 明确",
+            "rating": "✅",
+            "score": 3
+          }
+        },
+        "score": 0.75
+      },
+      "composite": 0.85
+    },
+    "User05": {
+      "completeness": {
+        "files_present": 5,
+        "total_required": 5,
+        "status": "full",
+        "missing": [],
+        "score": 1.0
+      },
+      "quality": {
+        "total_score": 8,
+        "max_score": 12,
+        "rating": "合格",
+        "criteria": {
+          "reusable": {
+            "label": "可复用",
+            "rating": "✅",
+            "score": 3
+          },
+          "executable": {
+            "label": "可执行",
+            "rating": "✅",
+            "score": 3
+          },
+          "verifiable": {
+            "label": "可验证",
+            "rating": "⚠️",
+            "score": 1
+          },
+          "clear_io": {
+            "label": "IO 明确",
+            "rating": "⚠️",
+            "score": 1
+          }
+        },
+        "score": 0.6666666666666666
+      },
+      "composite": 0.8
+    },
+    "User06": {
+      "completeness": {
+        "files_present": 4,
+        "total_required": 5,
+        "status": "partial",
+        "missing": [
+          "可执行内容"
+        ],
+        "score": 0.8
+      },
+      "quality": {
+        "total_score": 7,
+        "max_score": 12,
+        "rating": "合格",
+        "criteria": {
+          "reusable": {
+            "label": "可复用",
+            "rating": "✅",
+            "score": 3
+          },
+          "executable": {
+            "label": "可执行",
+            "rating": "❌",
+            "score": 0
+          },
+          "verifiable": {
+            "label": "可验证",
+            "rating": "✅",
+            "score": 3
+          },
+          "clear_io": {
+            "label": "IO 明确",
+            "rating": "⚠️",
+            "score": 1
+          }
+        },
+        "score": 0.5833333333333334
+      },
+      "composite": 0.6700000000000002
+    },
+    "User07": {
+      "completeness": {
+        "files_present": 5,
+        "total_required": 5,
+        "status": "full",
+        "missing": [],
+        "score": 1.0
+      },
+      "quality": {
+        "total_score": 10,
+        "max_score": 12,
+        "rating": "优秀",
+        "criteria": {
+          "reusable": {
+            "label": "可复用",
+            "rating": "✅",
+            "score": 3
+          },
+          "executable": {
+            "label": "可执行",
+            "rating": "✅",
+            "score": 3
+          },
+          "verifiable": {
+            "label": "可验证",
+            "rating": "✅",
+            "score": 3
+          },
+          "clear_io": {
+            "label": "IO 明确",
+            "rating": "⚠️",
+            "score": 1
+          }
+        },
+        "score": 0.8333333333333334
+      },
+      "composite": 0.9
+    },
+    "User08": {
+      "completeness": {
+        "files_present": 5,
+        "total_required": 5,
+        "status": "full",
+        "missing": [],
+        "score": 1.0
+      },
+      "quality": {
+        "total_score": 10,
+        "max_score": 12,
+        "rating": "优秀",
+        "criteria": {
+          "reusable": {
+            "label": "可复用",
+            "rating": "✅",
+            "score": 3
+          },
+          "executable": {
+            "label": "可执行",
+            "rating": "✅",
+            "score": 3
+          },
+          "verifiable": {
+            "label": "可验证",
+            "rating": "⚠️",
+            "score": 1
+          },
+          "clear_io": {
+            "label": "IO 明确",
+            "rating": "✅",
+            "score": 3
+          }
+        },
+        "score": 0.8333333333333334
+      },
+      "composite": 0.9
+    },
+    "User09": {
+      "completeness": {
+        "files_present": 5,
+        "total_required": 5,
+        "status": "full",
+        "missing": [],
+        "score": 1.0
+      },
+      "quality": {
+        "total_score": 12,
+        "max_score": 12,
+        "rating": "优秀",
+        "criteria": {
+          "reusable": {
+            "label": "可复用",
+            "rating": "✅",
+            "score": 3
+          },
+          "executable": {
+            "label": "可执行",
+            "rating": "✅",
+            "score": 3
+          },
+          "verifiable": {
+            "label": "可验证",
+            "rating": "✅",
+            "score": 3
+          },
+          "clear_io": {
+            "label": "IO 明确",
+            "rating": "✅",
+            "score": 3
+          }
+        },
+        "score": 1.0
+      },
+      "composite": 1.0
+    },
+    "User10": {
+      "completeness": {
+        "files_present": 5,
+        "total_required": 5,
+        "status": "full",
+        "missing": [],
+        "score": 1.0
+      },
+      "quality": {
+        "total_score": 10,
+        "max_score": 12,
+        "rating": "优秀",
+        "criteria": {
+          "reusable": {
+            "label": "可复用",
+            "rating": "✅",
+            "score": 3
+          },
+          "executable": {
+            "label": "可执行",
+            "rating": "✅",
+            "score": 3
+          },
+          "verifiable": {
+            "label": "可验证",
+            "rating": "⚠️",
+            "score": 1
+          },
+          "clear_io": {
+            "label": "IO 明确",
+            "rating": "✅",
+            "score": 3
+          }
+        },
+        "score": 0.8333333333333334
+      },
+      "composite": 0.9
+    },
+    "User11": {
+      "completeness": {
+        "files_present": 5,
+        "total_required": 5,
+        "status": "full",
+        "missing": [],
+        "score": 1.0
+      },
+      "quality": {
+        "total_score": 4,
+        "max_score": 12,
+        "rating": "不合格",
+        "criteria": {
+          "reusable": {
+            "label": "可复用",
+            "rating": "✅",
+            "score": 3
+          },
+          "executable": {
+            "label": "可执行",
+            "rating": "❌",
+            "score": 0
+          },
+          "verifiable": {
+            "label": "可验证",
+            "rating": "❌",
+            "score": 0
+          },
+          "clear_io": {
+            "label": "IO 明确",
+            "rating": "⚠️",
+            "score": 1
+          }
+        },
+        "score": 0.3333333333333333
+      },
+      "composite": 0.6
+    },
+    "User12": {
+      "completeness": {
+        "files_present": 5,
+        "total_required": 5,
+        "status": "full",
+        "missing": [],
+        "score": 1.0
+      },
+      "quality": {
+        "total_score": 8,
+        "max_score": 12,
+        "rating": "合格",
+        "criteria": {
+          "reusable": {
+            "label": "可复用",
+            "rating": "⚠️",
+            "score": 1
+          },
+          "executable": {
+            "label": "可执行",
+            "rating": "✅",
+            "score": 3
+          },
+          "verifiable": {
+            "label": "可验证",
+            "rating": "⚠️",
+            "score": 1
+          },
+          "clear_io": {
+            "label": "IO 明确",
+            "rating": "✅",
+            "score": 3
+          }
+        },
+        "score": 0.6666666666666666
+      },
+      "composite": 0.8
+    }
+  }
+}
