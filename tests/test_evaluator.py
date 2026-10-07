@@ -12,7 +12,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 
-from scanner import scan_submissions
+from scanner import scan_and_group
 from completeness import check_completeness
 from evaluator import evaluate_quality
 
@@ -22,8 +22,9 @@ def test_scan_finds_files():
     golden_set_path = PROJECT_ROOT / "benchmark" / "golden_set"
     sample_path = golden_set_path / "sample_01_perfect"
     if sample_path.exists():
-        results = scan_submissions(str(sample_path))
+        results = scan_and_group(sample_path)
         assert results is not None, "Scanner should return results"
+        assert isinstance(results, dict), "Should return a dict grouped by author"
         print("[PASS] test_scan_finds_files")
     else:
         print("[SKIP] test_scan_finds_files - golden set not found")
@@ -35,8 +36,9 @@ def test_rubric_loads():
     if rubric_path.exists():
         with open(rubric_path, "r", encoding="utf-8") as f:
             rubric = json.load(f)
-        assert "dimensions" in rubric, "Rubric should have dimensions"
-        assert len(rubric["dimensions"]) == 4, "Should have 4 dimensions"
+        assert "quality_criteria" in rubric, "Rubric should have quality_criteria"
+        criteria = rubric["quality_criteria"]
+        assert len(criteria) == 4, f"Should have 4 quality dimensions, got {len(criteria)}"
         print("[PASS] test_rubric_loads")
     else:
         print("[SKIP] test_rubric_loads - rubric.json not found")
@@ -50,8 +52,8 @@ def test_golden_set_labels():
             labels = json.load(f)
         assert len(labels) == 12, f"Should have 12 samples, got {len(labels)}"
         for sample_id, label in labels.items():
-            assert "expected_completeness" in label or "expected" in label, \
-                f"Sample {sample_id} should have expected results"
+            assert "completeness" in label, \
+                f"Sample {sample_id} should have completeness label"
         print("[PASS] test_golden_set_labels")
     else:
         print("[SKIP] test_golden_set_labels - labels.json not found")
