@@ -112,6 +112,7 @@ skill-evaluator/
 ├── CONTRIBUTING.md             # 贡献指南
 ├── CHANGELOG.md                # 版本更新记录
 ├── AI_LOG.md                   # AI 辅助开发日志
+├── AAR.md                      # 项目复盘（After Action Review）
 ├── ATTRIBUTION.md              # 借鉴来源说明
 ├── .gitignore
 ├── .github/
@@ -205,7 +206,7 @@ python scripts/benchmark.py --verbose
 
 ## AI 生成说明
 
-本项目使用 AI 辅助开发，经历了 5 轮主要迭代（架构设计 → 核心实现 → 基准测试调优 → 报告生成 → 文档完善），详见 [AI_LOG.md](./AI_LOG.md)。
+本项目使用 AI 辅助开发，经历了 5 轮主要迭代（架构设计 → 核心实现 → 基准测试调优 → 报告生成 → 文档完善），详见 [AI_LOG.md](./AI_LOG.md)。项目复盘见 [AAR.md](./AAR.md)。
 
 ## 借鉴来源
 
