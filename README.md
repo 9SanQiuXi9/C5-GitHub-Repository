@@ -102,6 +102,16 @@ python scripts/main.py ./submissions
 
 完整的示例输出见 [reports/reports.md](./reports/reports.md)。
 
+## C5 交付物索引
+
+| C5 要求项 | 文件 |
+|-----------|------|
+| `README.md` | [README.md](./README.md)（本文件） |
+| `*repo链接*` | [repo链接.md](./repo链接.md) |
+| `*AI日志*` | [AI日志.md](./AI日志.md) |
+| `*拿来说明*` | [拿来说明.md](./拿来说明.md) |
+
+---
 ## 项目结构
 
 ```
