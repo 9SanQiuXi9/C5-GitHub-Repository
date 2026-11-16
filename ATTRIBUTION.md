@@ -70,4 +70,4 @@ Issue 模板的设计参考了 GitHub 官方文档中关于 [Issue 模板](https
 
 ## AI 辅助说明
 
-本项目使用 AI 辅助开发（详见 [AI_LOG.md](./AI_LOG.md)）。C4 阶段的原始开发使用了 Claude (Anthropic) 和 ChatGPT (OpenAI)；C5 阶段的仓库包装使用了 Qoder。所有 AI 生成的内容均经过人工审核和修改。
+本项目使用 AI 辅助开发（详见 [AI日志.md](./AI日志.md)）。C4 阶段的原始开发使用了 Claude (Anthropic) 和 ChatGPT (OpenAI)；C5 阶段的仓库包装使用了 Qoder。所有 AI 生成的内容均经过人工审核和修改。
