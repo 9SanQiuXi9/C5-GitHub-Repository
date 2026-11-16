@@ -15,8 +15,8 @@
 ### 安装
 
 ```bash
-git clone https://github.com/your-username/skill-evaluator.git
-cd skill-evaluator
+git clone https://github.com/9SanQiuXi9/C5-GitHub-Repository.git
+cd C5-GitHub-Repository
 ```
 
 无需安装任何第三方依赖。本工具纯 Python 标准库实现，支持 Python 3.10+。

@@ -6,7 +6,7 @@
 
 ### 报告 Bug
 
-如果你发现了 Bug，请在 [GitHub Issues](https://github.com/your-username/skill-evaluator/issues) 中提交 Bug Report，并选择 "Bug Report" 模板。
+如果你发现了 Bug，请在 [GitHub Issues](https://github.com/9SanQiuXi9/C5-GitHub-Repository/issues) 中提交 Bug Report，并选择 "Bug Report" 模板。
 
 提交前请确认：
 - 使用最新的 main 分支版本

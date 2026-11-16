@@ -15,8 +15,8 @@ python --version
 ### 第二步：获取工具
 
 ```bash
-git clone https://github.com/your-username/skill-evaluator.git
-cd skill-evaluator
+git clone https://github.com/9SanQiuXi9/C5-GitHub-Repository.git
+cd C5-GitHub-Repository
 ```
 
 目录结构：
